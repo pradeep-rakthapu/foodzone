@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+}
+title{
+    font-family:'Times New Roman', Times, serif; 
+    font-style: italic;
+}
+header > .row{
+    height: 82px;
+    margin-bottom: 0px;
+    
+    
+}
+#icon{
+    color: rgb(212, 156, 81);
+    font-size: xx-large;
+
+}
+#user{
+    font-size: 30px;
+}
+
+.slogo{
+    height: 50px;
+    width: 50px;
+    
+}
+#search{
+    margin-top: 0%;
+    height: 400px;
+    width: 100%;
+    
+    background-image: url(food-wallpaper.png);
+    background-size: 100% 400px;
+    
+}
+#gd{
+    height: 400px;
+    width: 100%;
+    margin-left: 0 ;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0),rgba(0, 0, 0,0.8)) ;
+}
+#ts{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgb(207, 124, 14);
+    text-align: center;
+    margin-left: 38%;
+    width: 9%;
+    height: 100px;
+    font-size: 60px;
+    background-color: antiquewhite;
+    margin-top: 30px;
+    border-radius: 100%;
+
+}
+#text{
+    margin-left: 23%;
+    margin-top: 50px;
+    font-size: 35px;
+    color: whitesmoke;
+    text-shadow: 4px 4px  rgb(34, 32, 32);
+    
+}
+
+#city{
+    margin-top: 80px;
+    
+    margin-left: 20%;
+    height: 40px;
+    width: 20%;
+    font-size: 20px;
+    background-color: rgb(219, 219, 193);
+    color: rgb(109, 106, 106);
+}
+#res{
+    margin-top: 80px;
+    margin-left: 5%;
+    height: 40px;
+    width: 20%;
+    font-size: 20px;
+    background-color: rgb(219, 219, 193);
+    color: rgb(109, 106, 106);
+}
+#quicksearch{
+    background-color:rgb(112, 245, 201);
+    height: 600px;
+    width: 100%;
+}
+#qt{
+    height: 150px;
+    width: 100%;
+    margin-left: 5%;
+
+    color: rgb(114, 113, 112);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#qt > h1{
+    text-shadow: 1px 1px rgb(66, 66, 65);
+    font-weight: bolder;
+}
+
+.row{
+    margin-top: 0%;
+    height: 200px;
+}
+.bg{
+    height: 190px;
+    width: 100%;
+    border: 2px solid black;
+    box-shadow: 4px 4px 10px gray;
+    background: crimson;
+
+}
+
+
+.img{
+    height: 100%;
+    width: 50%;
+    float: left;
+    margin-left: 0;
+}
+.img >img{
+    margin-left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.mealstext{
+   
+   
+   
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    
+    float: left;
+    height: 190;
+    width: 45%;
+    margin-left: 3%;
+    
+    
+}
+.item{
+    
+    color: #ededdc;
+}
+
+
+
+footer{
+    color: #c61616;
+    background-color: #e09c83;
+    height: 200px;
+    
+    
+}
+
+.foot1{
+    width: 30%;
+    margin-left: 5%;
+    border-right: 2px solid whitesmoke;
+    float: left;
+    height: 120px;
+}
+.foot2{
+    width: 25%;
+    margin-left: 5%;
+    float: left;
+    height: 120px;
+
+}
+.copy{
+    
+}
