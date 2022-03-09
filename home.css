@@ -1,5 +1,10 @@
 body{
     margin: 0;
+    background-color:rgb(112, 245, 201);
+}
+.mydark{
+    background-color: black;
+    color: white;
 }
 title{
     font-family:'Times New Roman', Times, serif; 
@@ -85,8 +90,8 @@ header > .row{
     background-color: rgb(219, 219, 193);
     color: rgb(109, 106, 106);
 }
-#quicksearch{
-    background-color:rgb(112, 245, 201);
+.quicksearch{
+   
     height: 600px;
     width: 100%;
 }

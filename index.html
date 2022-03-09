@@ -6,6 +6,10 @@
         <link href="f.png" rel="icon"  />
         <title>FoodZone</title>
         <link href="home.css" rel="stylesheet" type="text/css" />
+        <script> function changemode(){
+                var bd = document.body;
+                bd.classList.toggle('mydark')
+        } </script>
         
     </head>
     <body>
@@ -23,6 +27,7 @@
                     <li class="active"></li>
                    </ul>
                    <ul class="nav navbar-nav navbar-right">
+                      <li> <button onclick="changemode()" class="btn btn-info mt-5"> changemode </button> </li>
                        <li><a href="#"><span id="user" class="glyphicon glyphicon-user">user</span> </a> </li>
                        <li> <a href="www.facebook.com" target="blank"><img src="fb.png" alt="fb" class="slogo"></a> </li>
                        <li><a href="www.instagram.com" target="blank"><img src="inst.png" alt="instagram"class="slogo"></a> </li>
@@ -63,7 +68,7 @@
 
                 
         </div>
-        <div id="quicksearch" class="container-fluid">
+        <div class="quicksearch container-fluid">
                 <div id="qt"> <h1 style="color: rgb(109, 2, 248);"> QUICK SEARCH</h1>
                 <h4>
                     search restaurants by meals
